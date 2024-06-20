@@ -1175,13 +1175,22 @@ ul, ol {
 	border-radius: 50%;
 	margin-left: 4px;
 }
+
+
+
 .copyright-text .footer-social a:first-child {
 	margin-left: 0;
 }
 .copyright-text .footer-social a:hover {
-	background: -webkit-gradient(linear, left top, right top, from(#048cc7), to(#048cc7));
-	background: -o-linear-gradient(left, #048cc7, #048cc7);
-	background: linear-gradient(to right, #048cc7, #048cc7);
+	background: -webkit-gradient(linear, left top, right top, from(#000000), to(#000000));
+	background: -o-linear-gradient(left, #000000, #000000);
+	background: linear-gradient(to right, #000000, #000000);
+}
+
+.footer-social2 a:hover  {
+	background: -webkit-gradient(linear, left top, right top, from(#000000), to(#000000));
+	background: -o-linear-gradient(left, #000000, #000000);
+	background: linear-gradient(to right, #000000, #000000);
 }
 /*---------------------
   Breadcrumb Section
@@ -1428,9 +1437,8 @@ ul, ol {
 }
 .single-blog-item {
 	margin-bottom: 42px;
+	
 }
-
-
 
 .single-blog-item img {
 	min-width: 100%;
