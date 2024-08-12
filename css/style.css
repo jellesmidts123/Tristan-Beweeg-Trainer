@@ -759,6 +759,12 @@ ul, ol {
 .single-trainer-item100 {
 	position: relative;
 }
+.single-trainer-item110 {
+	position: relative;
+}
+.single-trainer-item111 {
+	position: relative;
+}
 
 .single-trainer-item:hover .trainer-text {
 	height: 180px;
@@ -767,6 +773,28 @@ ul, ol {
 	-webkit-box-shadow: 0px 10px 49px 0px rgba(0, 0, 0, 0.15);
 	box-shadow: 0px 10px 49px 0px rgba(0, 0, 0, 0.15);
 }
+
+.single-trainer-item110:hover .trainer-text {
+	height: 380px;
+	bottom: -90px;
+	padding: 26px 30px 30px;
+	-webkit-box-shadow: 0px 10px 49px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 10px 49px 0px rgba(0, 0, 0, 0.15);
+}
+.single-trainer-item111:hover .trainer-text {
+	height: 320px;
+	bottom: -90px;
+	padding: 26px 30px 30px;
+	-webkit-box-shadow: 0px 10px 49px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 10px 49px 0px rgba(0, 0, 0, 0.15);
+}
+
+.fotooo{
+	scale: 150%;
+	margin-left: 200px;
+}
+
+
 
 .single-trainer-item100:hover .trainer-text {
 	height: 180px;
@@ -777,11 +805,18 @@ ul, ol {
 }
 
 
+
 .single-trainer-item:hover .trainer-text p {
 	opacity: 1;
 }
 
 .single-trainer-item100:hover .trainer-text p {
+	opacity: 1;
+}
+.single-trainer-item110:hover .trainer-text p {
+	opacity: 1;
+}
+.single-trainer-item111:hover .trainer-text p {
 	opacity: 1;
 }
 .single-trainer-item:hover .trainer-text .trainer-social {
@@ -792,13 +827,75 @@ ul, ol {
 	opacity: 1;
 	visibility: visible;
 }
+.single-trainer-item110:hover .trainer-text .trainer-social {
+	opacity: 1;
+	visibility: visible;
+}
+.single-trainer-item111:hover .trainer-text .trainer-social {
+	opacity: 1;
+	visibility: visible;
+}
 .single-trainer-item img {
 	min-width: 100%;
 }
+.single-trainer-item110 img {
+	min-width: 100%;
+}
+.single-trainer-item111 img {
+	min-width: 100%;
+}
+
 .single-trainer-item100 img {
 	min-width: 100%;
 }
+
+.single-trainer-item110 img {
+	min-width: 100%;
+}
+.single-trainer-item111 img {
+	min-width: 100%;
+}
 .single-trainer-item .trainer-text {
+	position: absolute;
+	left: 50%;
+	bottom: -55px;
+	text-align: center;
+	background: #ffffff;
+	width: 310px;
+	margin: 0 auto;
+	-webkit-transform: translateX(-155px);
+	-ms-transform: translateX(-155px);
+	transform: translateX(-155px);
+	-webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+	padding: 20px 30px 18px;
+	height: 70px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+.single-trainer-item110 .trainer-text {
+	position: absolute;
+	left: 50%;
+	bottom: -55px;
+	text-align: center;
+	background: #ffffff;
+	width: 310px;
+	margin: 0 auto;
+	-webkit-transform: translateX(-155px);
+	-ms-transform: translateX(-155px);
+	transform: translateX(-155px);
+	-webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+	padding: 20px 30px 18px;
+	height: 70px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+.single-trainer-item111 .trainer-text {
 	position: absolute;
 	left: 50%;
 	bottom: -55px;
@@ -844,6 +941,18 @@ ul, ol {
 	font-weight: 600;
 	margin-bottom: 4px;
 }
+.single-trainer-item110 .trainer-text h5 {
+	font-size: 20px;
+	color: #111111;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+.single-trainer-item111 .trainer-text h5 {
+	font-size: 20px;
+	color: #111111;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
 .single-trainer-item100 .trainer-text h5 {
 	font-size: 20px;
 	color: #111111;
@@ -855,11 +964,41 @@ ul, ol {
 	font-size: 16px;
 	color: #45c5fc;
 }
+.single-trainer-item110 .trainer-text span {
+	font-size: 16px;
+	color: #45c5fc;
+}
+.single-trainer-item111 .trainer-text span {
+	font-size: 16px;
+	color: #45c5fc;
+}
 .single-trainer-item100 .trainer-text span {
 	font-size: 16px;
 	color: #45c5fc;
 }
+.single-trainer-item110 .trainer-text span {
+	font-size: 16px;
+	color: #45c5fc;
+}
+.single-trainer-item111 .trainer-text span {
+	font-size: 16px;
+	color: #45c5fc;
+}
 .single-trainer-item .trainer-text p {
+	margin-top: 7px;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.single-trainer-item110 .trainer-text p {
+	margin-top: 7px;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.single-trainer-item111 .trainer-text p {
 	margin-top: 7px;
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -880,6 +1019,20 @@ ul, ol {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
+.single-trainer-item110 .trainer-text .trainer-social {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.single-trainer-item111 .trainer-text .trainer-social {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
 .single-trainer-item100 .trainer-text .trainer-social {
 	opacity: 0;
 	visibility: hidden;
@@ -887,7 +1040,26 @@ ul, ol {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
+
 .single-trainer-item .trainer-text .trainer-social a {
+	display: inline-block;
+	font-size: 17px;
+	color: #111111;
+	margin-right: 25px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.single-trainer-item110 .trainer-text .trainer-social a {
+	display: inline-block;
+	font-size: 17px;
+	color: #111111;
+	margin-right: 25px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.single-trainer-item111 .trainer-text .trainer-social a {
 	display: inline-block;
 	font-size: 17px;
 	color: #111111;
@@ -908,10 +1080,22 @@ ul, ol {
 .single-trainer-item .trainer-text .trainer-social a:hover {
 	color: #45c5fc;
 }
+.single-trainer-item110 .trainer-text .trainer-social a:hover {
+	color: #45c5fc;
+}
+.single-trainer-item111 .trainer-text .trainer-social a:hover {
+	color: #45c5fc;
+}
 .single-trainer-item100 .trainer-text .trainer-social a:hover {
 	color: #45c5fc;
 }
 .single-trainer-item .trainer-text .trainer-social a:last-child {
+	margin-right: 0;
+}
+.single-trainer-item110 .trainer-text .trainer-social a:last-child {
+	margin-right: 0;
+}
+.single-trainer-item111 .trainer-text .trainer-social a:last-child {
 	margin-right: 0;
 }
 .single-trainer-item100 .trainer-text .trainer-social a:last-child {
@@ -2131,6 +2315,7 @@ ul, ol {
 		left: 40px;
 		top: 35px;
 	}
+	
 	.services-item.pd-b {
 		padding-top: 70px;
 	}
@@ -2193,6 +2378,11 @@ ul, ol {
 	}
 	.single-trainer-item100 {
 		margin-bottom: 110px;
+	}
+
+	.fotooo{
+		scale: 120%;
+		margin-left: 0px;
 	}
 	.trainer-section {
 		padding-bottom: 80px;
