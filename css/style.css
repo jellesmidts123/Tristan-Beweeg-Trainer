@@ -752,6 +752,11 @@ ul, ol {
 .trainer-section.about-trainer {
 	background: #ffffff;
 }
+
+.oefen{
+	margin-bottom: 100px;
+}
+
 .single-trainer-item {
 	position: relative;
 }
@@ -918,7 +923,7 @@ ul, ol {
 .single-trainer-item100 .trainer-text {
 	position: absolute;
 	left: 52%;
-	bottom: 5px;
+	bottom: -55px;
 	text-align: center;
 	background: #ffffff;
 	width: 300px;
