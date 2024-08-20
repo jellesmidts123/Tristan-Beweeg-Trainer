@@ -522,6 +522,7 @@ ul, ol {
 .hero-section {
 	height: 880px;
 	padding-top: 335px;
+	padding-bottom: 50px;
 }
 .hero-text span {
 	font-size: 14px;
@@ -718,7 +719,15 @@ ul, ol {
 .trainer-section {
 	background: #f5f5f5;
 	padding-top: 90px;
-	padding-bottom: 80px;
+	padding-bottom: 100px;
+
+
+}
+
+.trainertest {
+	background: #f5f5f5;
+	padding-top: 90px;
+	padding-bottom: 0px;
 
 
 }
@@ -760,6 +769,8 @@ ul, ol {
 .single-trainer-item {
 	position: relative;
 }
+
+
 
 .single-trainer-item100 {
 	position: relative;
@@ -1207,6 +1218,13 @@ ul, ol {
 
 .banner-section {
 	padding-top: 65px;
+}
+
+
+
+.bannerperson{
+	height: 500px;
+	width: 500px;
 }
 .banner-text {
 	padding-top: 45px;
@@ -1878,8 +1896,23 @@ ul, ol {
 	padding-top: 20px;
 
 }
+
+.block-text p {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 600px; /* Dit zorgt ervoor dat je tekst in een blok blijft met een maximale breedte */
+}
+
 .award-text h2 {
-	font-size: 23px;
+	font-size: 38px;
+	font-weight: 600;
+	color: #111111;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.fonttext h2 {
+	font-size: 28px;
 	font-weight: 600;
 	color: #111111;
 	text-transform: uppercase;
