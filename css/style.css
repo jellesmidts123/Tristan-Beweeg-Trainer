@@ -216,6 +216,11 @@ ul, ol {
 
 }
 
+.mailtobutton{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
 .paddingbtn{
 	margin-top: 40px;
 }
@@ -349,7 +354,9 @@ ul, ol {
 }
 
 .contact-section{
-	background-color: #f5f5f5;
+	
+	text-align: center;
+
 }
 
 .jellesmidts {
@@ -524,6 +531,8 @@ ul, ol {
 /*---------------------
   Hero Section
 -----------------------*/
+
+
 
 .hero-section {
 	height: 880px;
@@ -2315,6 +2324,13 @@ ul, ol {
 	color: #111111;
 	text-transform: uppercase;
 	margin-bottom: 47px;
+
+}
+
+.contactpagina{
+	margin-left: 540px;
+	width: 1050px;
+
 }
 .contact-info .contact-address .ca-widget {
 	overflow: hidden;
@@ -2328,7 +2344,7 @@ ul, ol {
 	text-align: center;
 	line-height: 74px;
 	float: left;
-	margin-right: 28px;
+
 }
 .contact-info .contact-address .ca-widget .cw-text {
 	padding-top: 12px;
@@ -2340,7 +2356,8 @@ ul, ol {
 .contact-info .contact-address .ca-widget .cw-text p {
 	margin-bottom: 0;
 	color: #111111;
-	font-size: 18px;
+	font-size: 10px;
+	scale: 150%;
 }
 .contact-form h4 {
 	font-weight: 600;
