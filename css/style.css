@@ -166,6 +166,10 @@ ul, ol {
 	
 }
 
+.buttoncc{
+	padding-left: 90px;
+}
+
 .primary-btn100 {
 	display: inline-block;
 	font-size: 16px;
@@ -2338,32 +2342,40 @@ ul, ol {
   Contact Section
 -----------------------*/
 
+
+
 .contact-info h4 {
 	font-weight: 600;
 	color: #111111;
 	text-transform: uppercase;
 	margin-bottom: 47px;
+	padding-left: 80px
 
 }
 
 .contactpagina{
 	margin-left: 540px;
 	width: 1050px;
+	
 
 }
 .contact-info .contact-address .ca-widget {
 	overflow: hidden;
 	margin-bottom: 16px;
+	
+
 }
 .contact-info .contact-address .ca-widget .cw-icon {
 	height: 74px;
 	width: 74px;
 	border: 1px solid #ebebeb;
 	border-radius: 50%;
-	text-align: center;
-	line-height: 74px;
-	float: left;
-
+		text-align: center;
+		line-height: 74px;
+		float: left;
+		
+	
+	
 }
 .contact-info .contact-address .ca-widget .cw-text {
 	padding-top: 12px;
@@ -2385,7 +2397,7 @@ ul, ol {
 	margin-bottom: 47px;
 }
 .contact-form form input {
-	width: 100%;
+	width: 100	%;
 	height: 51px;
 	border: 1px solid #e1e1e1;
 	padding-left: 20px;
@@ -2456,6 +2468,7 @@ ul, ol {
 	border: none;
 	text-transform: uppercase;
 }
+
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
 @media only screen and (min-width: 1200px) {
@@ -2475,7 +2488,7 @@ ul, ol {
 		left: 40px;
 		top: 35px;
 	}
-	
+
 	.services-item.pd-b {
 		padding-top: 70px;
 	}
@@ -2576,6 +2589,7 @@ ul, ol {
 	.contact-info {
 		margin-bottom: 30px;
 	}
+	
 	.register-text {
 		margin-right: 0;
 	}
@@ -2613,6 +2627,7 @@ ul, ol {
     }
 	
 	
+	
 
 	
 }
@@ -2630,6 +2645,7 @@ ul, ol {
 		padding-top: 15px;
 		padding-left: 0px;
 	}
+	
 	.phone-cirkcle{
 		scale: 50%;
 		margin: -100px;
